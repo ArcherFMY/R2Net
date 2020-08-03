@@ -1,16 +1,19 @@
 ## Residual Learning for Salient Object Detection.
 
+### This is a PyTorch implementation of our TIP 2020. [paper](https://ieeexplore.ieee.org/document/9018384)
+
 ## Changelog
 
 * 2020/8/3:
-    * Update README.md. Codes coming soon.
-
-### This is a PyTorch implementation of our TIP 2020. [paper](https://ieeexplore.ieee.org/document/9018384)
+    * [x] Update README.md.
+    * [x] Codes added.
 
 ## Requirements
 
 - [PyTorch 0.4.1+](http://pytorch.org/)
 - [torchvision](http://pytorch.org)
+- pillow
+- opencv
 
 ## Notes
 
