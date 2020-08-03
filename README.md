@@ -2,8 +2,6 @@
 
 ## Changelog
 
-The code and experimental results have be released now :smile:.
-
 * 2020/8/3:
     * Update README.md. Codes coming soon.
 
