@@ -4,6 +4,9 @@
 
 ## Changelog
 
+* 2020/8/6:
+    * [x] `dataset/joint_transforms.py` added.
+
 * 2020/8/3:
     * [x] Update README.md.
     * [x] Codes added.
