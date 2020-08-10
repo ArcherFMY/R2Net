@@ -4,6 +4,9 @@
 
 ## Changelog
 
+* 2020/8/10:
+    * [x] pre-trained `final.pth` shared.
+
 * 2020/8/6:
     * [x] `dataset/joint_transforms.py` added.
 
@@ -51,6 +54,8 @@ cd R2Net/
 python main.py --mode='train'
 ```
 2. After training the result model will be stored under `results/run-*`  folder.
+
+Note: the training process is only about 2 hours. We shared our pre-trained model on [Google Drive](https://drive.google.com/file/d/1O5ogPyRrGKLn5yEnzBytXLHJP4aPZkwn/view?usp=sharing) and [Baidu Pan](https://pan.baidu.com/s/1HhBWyjHJ94Av5NM3uW41Mg) (Fetch Code: cih3). You can download the `final.pth` file and put it in the `run-*/models/` folder.
 
 ### 4. Test
 
