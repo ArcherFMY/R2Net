@@ -4,13 +4,17 @@ from dataset.dataset_image import get_loader
 from solver import Solver
 from torchvision import transforms
 
-def get_test_info(sal_mode='choose_video'):
+def get_test_info(sal_mode='duts'):
     if sal_mode == 'duts':
         image_root = './data/DUTS-TE/DUTS-TE-Image/' 
         image_source = './data/DUTS-TE/DUTS-TE_test.lst'
     elif sal_mode == 'ecssd':
         image_root = './data/ECSSD/ECSSD-Image/'
         image_source = './data/ECSSD/ECSSD_test.lst'
+    else:
+        raise Exception("please set the paths for dataset %s" % sal_mode) 
+        image_root = []
+        image_source = []
 
     return image_root, image_source
 
