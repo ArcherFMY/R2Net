@@ -12,10 +12,10 @@ def get_test_info(sal_mode='duts'):
         image_root = './data/ECSSD/ECSSD-Image/'
         image_source = './data/ECSSD/ECSSD_test.lst'
     else:
-        raise Exception("please set the paths for dataset %s" % sal_mode) 
         image_root = []
         image_source = []
-
+        raise Exception("please set the paths for dataset %s" % sal_mode) 
+        
     return image_root, image_source
 
 def main(config):
